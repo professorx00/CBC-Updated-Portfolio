@@ -1,4 +1,26 @@
-#contactInfo{
-  position: relative;
+#wrap{
   
 }
+header{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: blue;
+}
+
+#logo{
+grid-row-start: 0;
+grid-row-end: 2;
+}
+
+#links{
+  grid-row-start: 2;
+  grid-row-end:3;
+}
+
+#contact{
+  grid-row-start:6;
+  grid-row-end:6;
+
+}
+
