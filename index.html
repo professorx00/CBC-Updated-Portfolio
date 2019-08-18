@@ -17,17 +17,15 @@
 <body>
     <div id="wrap container">
         <div class="row">
-            <header class="col-lg-2 col-md-3 col-xs-12">
+            <header class="col-lg-2">
                 <div id="logo">
                     <h1>Dave Ward</h1>
-                    <h3>Developer, Designer, Animator</h3>
+                    <span id="subtitle">Developer, Designer, Animator</span>
                 </div>
                 <div id="links">
-                    <ul>
-                        <li><a href="about">About Me</a></li>
-                        <li><a href="Portfolio">Portfolio</a></li>
-                        <li><a href="Contact">Contact</a></li>
-                    </ul>
+                    <a href="./index.html" class="btn btn-dark">About Me</a>
+                    <a href="./portfolio.html" class="btn btn-dark">Portfolio</a>
+                    <a href="./contact.html" class="btn btn-dark">Contact</a>
                 </div>
                 <div id="contact">
                     <div id="email">
@@ -35,17 +33,47 @@
                     </div>
                     <div id="phone">
                         Phone: <a href="tel:+1207391096">207-391-0296</a>
-                    </div>    
-                    
+                    </div>
+
                 </div>
             </header>
+            <div id="aboutMe" class="col-lg-9 body">
+                <section><h1 class="display-1">About Me</h1></section>
+                <section id="content">
+                    <img src="./imgs/myself.jpg" alt="picture of me" class="float-right img-fluid">
+                    <p>I am currently a SQL Query Report and Python Developer who works with CTR Maine to create Desktop
+                        and Web Service interfaces
+                        for a hosted Time and Attendance Software using SOAP API and Direct File Manipulation. I know
+                        how to create python scripts
+                        to create interface structures to convert files into importable data formats including date/time
+                        stamp management, data
+                        processing, and graphing data.
+                    </p>
+                    <p>I have developed crucial relationships with clients which has gained increase revenue for the CTR
+                        Maine. I even stepped into
+                        the secondary side of the business of security by taking incoming SQL Reports and creating a
+                        time sheet for employees based on
+                        their actual entrance and exit of the building.
+                    </p>
+                    <p>I am currently attending University of New Hampshire bootcamp for Full Stack Developer. I have
+                        also producing 3D assets for Maya,
+                        Blender and 3D Max. I have an associate degree in Character Animation from Brooks College. I
+                        have taken courses from Animation Mentor
+                        where I was taught Python to enhance his ability with animation by using scripting.
+                    </p>
+                    <p>Outside of work, I have many interests. I am involved in Hack Portland and I join their game dev,
+                        python, and robotics monthly meetings.
+                        I organize a weekly role-playing session which has helped me develop a strong problem solving,
+                        social interactions, and creative thinking.
+                        I am an avid video game player who not only plays but works on building them.
+                    </p>
+                </section>
+            </div>
         </div>
-        <section id="body">
-            This is a body Section
-        </section>
+
     </div>
 
-    <script src="scripts/script.js"></script>
+    <script src="scripts/portscript.js"></script>
 </body>
 
 </html>
