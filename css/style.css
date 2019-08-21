@@ -45,6 +45,9 @@ div.comicBorder{
   color:#e1dab0;
   /* font-family: 'M PLUS 1p', sans-serif; */
 }
+#logo{
+  max-width:100%;
+}
 /* }
 .body{
   position:relative;
