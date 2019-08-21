@@ -1,39 +1,52 @@
-#wrap{
-  height: 100%;
+@import url('https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|M+PLUS+1p|Passion+One&display=swap');
+
+.bg{
+  background-image: url('paperBG.png');
+  padding: 4%;
+  width:960px;
+  
+}
+body { 
+  background: url('../imgs/background-01.png') no-repeat center center fixed; 
+  font: 90%/180% "Trebuchet MS", Trebuchet, arial, sans-serif;
+ 
+}
+a:link { color: #d1ca9c;  padding: 3px; margin:2px; text-decoration:underline;}
+a:visited { color: #d1ca9c;  padding: 3px; margin:2px; text-decoration:underline;}
+a:hover { color: #d6bc1e;  padding: 3px; margin:2px;}
+a:active { text-decoration: none; border:0;}
+
+*.row{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 *.hide {
   display: none;
 }
-header{
-  height:100vh;
-  display:grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: blue;
+#navBar{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  color:#bba015;
+  text-shadow: 2px 2px black;
 }
-
-#logo{
-grid-row-start: 0;
-grid-row-end: 1;
-margin-bottom: 2em;
+#nav{
+  background-color:#025d54;
+  padding: 10px;
 }
-#subtitle{
-  font-size: .95rem;
+div.comicBorder{
+  border: 3px solid black;
+  background:#025d54;
+  color:#e1dab0;
+  /* font-family: 'M PLUS 1p', sans-serif; */
 }
-
-#links{
-  grid-row-start: 1;
-  grid-row-end:3;
-  display:flex;
-  flex-direction: column;
-}
-#contact{
-  grid-row-start:3;
-  grid-row-end:4;
-  margin-top: 4em;
-}
+/* }
 .body{
-  background-color: red;
   position:relative;
   height: 100vh;
   padding-top: 2em;
@@ -69,4 +82,4 @@ margin-bottom: 2em;
 }
 #ProgramName{
   font-size: 2rem;
-}
+} */
