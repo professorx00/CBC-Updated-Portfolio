@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|M+PLUS+1p|Passion+One&display=swap');
+
+
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'M PLUS 1p', sans-serif;
+
+#
+##
