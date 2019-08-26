@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|M+PLUS+1p|Passion+One&display=swap');
+
+.bg{
+  padding: 4%;
+  width:960px;
+  
+}
+#me{
+  width:75%;
+  border: 3px solid black;
+}
+body { 
+  background: url('../imgs/background-01.png') no-repeat center center fixed; 
+  font: 90%/180% "Trebuchet MS", Trebuchet, arial, sans-serif;
+ 
+}
+a:link { color: #d1ca9c;  padding: 3px; margin:2px; text-decoration:underline;}
+a:visited { color: #d1ca9c;  padding: 3px; margin:2px; text-decoration:underline;}
+a:hover { color: #d6bc1e;  padding: 3px; margin:2px;}
+a:active { text-decoration: none; border:0;}
+
+*.row{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+*.hide {
+  display: none;
+}
+#navBar{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  color:#bba015;
+  text-shadow: 2px 2px black;
+
+}
+#nav{
+  background-color:#025d54;
+  padding: 10px;  
+  border: 3px solid black;
+}
+div.comicBorder{
+  border: 3px solid black;
+  background:#025d54;
+  color:#e1dab0;
+  /* font-family: 'M PLUS 1p', sans-serif; */
+}
+
+#iconbar{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+}
+*.fab{
+  font-size: 4rem;
+}
+#ProgramName{
+  font-size: 2rem;
+}
+#portcontent img{
+  width: 70%;
+}
+.right{
+  text-align: right;
+}
+*.footer{
+  justify-content: space-between;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>>';
+  font-size: 55px;
+  color: #ffd500;
+  text-shadow: 2px 2px #025d54;
+  text-shadow: -2px -2px #025d54;
+  font-family: 'Bangers', cursive;
+  font-family: 'Passion One', cursive;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<<';
+  font-size: 55px;
+  color: #ffd500;
+  text-shadow: 2px 2px #025d54;
+  text-shadow: -2px -2px #025d54;
+  font-family: 'Passion One', cursive;
+  
+}
+
+.carousel h5{
+  color: #ffd500;
+  text-shadow: 2px 2px #025d54;
+  text-shadow: -2px -2px #025d54;
+  font-size: 2rem;
+  font-family: 'Passion One', cursive;
+  background: #025d54;
+  margin-bottom: 0;
+  border-left: 3px solid black;
+  border-top:3px solid black;
+  border-right: 3px solid black;
+}
+.carousel p{
+  color: #ffd500;
+  text-shadow: 2px 2px #025d54;
+  text-shadow: -2px -2px #025d54;
+  font-size: 1.5rem;
+  font-family: 'Passion One', cursive;
+  background: #025d54;
+  margin-top: 0;
+  margin-bottom: 4px;
+  border-left: 3px solid black;
+  border-bottom:3px solid black;
+  border-right: 3px solid black;
+}
+
+
